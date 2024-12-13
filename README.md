@@ -1,5 +1,5 @@
 # Introduction
-This repository contains the code and experiments for our project in DDA6202 at CUHK-Shenzhen. We implement and evaluate six tuning-free optimization methods on various neural network architectures and datasets.
+This repository contains the code and experiments for our project in DDA6202 at CUHK-SZ. We implement and evaluate six tuning-free optimization methods on various neural network architectures and datasets.
 
 # Methods
 We incorporate the following tuning-free schedules, drawing from their official implementations:
@@ -12,7 +12,7 @@ We incorporate the following tuning-free schedules, drawing from their official 
 
 # Files and Directories
 - **`py`**: Contains the network architectures sourced from [kuangliu/pytorch-cifar](https://github.com/kuangliu/pytorch-cifar).  
-- **`outs`**: Stores all experiment outputs, including training logs and results.  
+- **`outs`**: Stores all experiment outputs.  
 - **`pic`**: Contains all figures generated during the project. The notebook `Figure Repetition.ipynb` can be used to reproduce these plots.  
 - **`run.py`**: Provides a simple demonstration of training a ResNet18 on CIFAR-10 using different tuning-free optimizers.
 
